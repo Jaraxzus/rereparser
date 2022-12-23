@@ -8,6 +8,7 @@ from time import sleep
 
 
 class WebdriverFirefox(webdriver.Firefox):
+    @staticmethod
     def recomended_conf(path_to_profile):
         """Returns the configured driver.
         Мaybe will be updated for better hiding from detection"""
